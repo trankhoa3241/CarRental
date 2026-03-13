@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Trang Chủ - Cho Thuê Xe</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        header { background-color: #f4f4f4; padding: 10px; text-align: center; }
+        nav { margin: 20px 0; }
+        nav a { margin: 0 15px; text-decoration: none; color: #007bff; }
+        .hero { text-align: center; margin: 50px 0; }
+        .cars { display: flex; justify-content: space-around; margin: 50px 0; }
+        .car { border: 1px solid #ddd; padding: 20px; width: 30%; text-align: center; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Chào Mừng Đến Với Dịch Vụ Cho Thuê Xe</h1>
+        <nav>
+            <a href="/">Trang Chủ</a>
+            <a href="/login">Đăng Nhập</a>
+        </nav>
+    </header>
+    <section class="hero">
+        <h2>Thuê Xe Dễ Dàng Và Nhanh Chóng</h2>
+        <p>Chúng tôi cung cấp dịch vụ cho thuê xe chất lượng cao với nhiều loại xe khác nhau.</p>
+    </section>
+    <section class="cars">
+        <div class="car">
+            <h3>Xe Sedan</h3>
+            <p>Phù hợp cho gia đình và đi công tác.</p>
+        </div>
+        <div class="car">
+            <h3>Xe SUV</h3>
+            <p>Lý tưởng cho chuyến đi dã ngoại.</p>
+        </div>
+        <div class="car">
+            <h3>Xe Thể Thao</h3>
+            <p>Trải nghiệm lái xe thú vị.</p>
+        </div>
+    </section>
+</body>
+</html>

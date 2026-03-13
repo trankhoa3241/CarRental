@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Nhập - Cho Thuê Xe</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <nav style="position: absolute; top: 20px; right: 20px;">
+        <a href="/">Trang Chủ</a>
+    </nav>
+    <div class="login-container">
+        <div class="login-form">
+            <h2>Đăng Nhập</h2>
+            <form action="/login" method="post">
+                <input type="text" name="username" placeholder="Tên đăng nhập" required>
+                <input type="password" name="password" placeholder="Mật khẩu" required>
+                <button type="submit">Đăng Nhập</button>
+            </form>
+            <p>Chưa có tài khoản? <a href="/register">Đăng ký</a></p>
+        </div>
+    </div>
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
